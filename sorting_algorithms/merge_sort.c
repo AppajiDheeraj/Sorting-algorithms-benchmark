@@ -64,16 +64,25 @@ void printArray(int arr[], int size) {
 }
 
 int main() {
-    int arr[] = {12, 11, 13, 5, 6, 7};
-    int n = sizeof(arr) / sizeof(arr[0]);
-    
-    printf("Original array: ");
-    printArray(arr, n);
+    int n;
+    scanf("%d", &n); // Read the number of elements
+    int *arr = (int *)malloc(n * sizeof(int));
+    if (arr == NULL) {
+        return 1; // Error handling for malloc
+    }
+
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &arr[i]); // Read elements into the array
+    }
     
     mergeSort(arr, 0, n - 1);
     
-    printf("Sorted array: ");
-    printArray(arr, n);
+    // Optionally print the sorted array, but for benchmarking, we might skip this
+    // for (int i = 0; i < n; i++) {
+    //     printf("%d ", arr[i]);
+    // }
+    // printf("\n");
     
+    free(arr); // Free dynamically allocated memory
     return 0;
 }

@@ -7,32 +7,31 @@ void swap(int* a, int* b) {
     *b = temp;
 }
 
-void heapify(int arr[], int n, int i) {
-    int largest = i;
-    int left = 2 * i + 1;
-    int right = 2 * i + 2;
+// Partition function for Quick Sort (pivot is the last element)
+int partition(int arr[], int low, int high) {
+    int pivot = arr[high]; // Pivot is now the element that was moved to high
+    int i = (low - 1);
+    int j;
     
-    if (left < n && arr[left] > arr[largest])
-        largest = left;
-    
-    if (right < n && arr[right] > arr[largest])
-        largest = right;
-    
-    if (largest != i) {
-        swap(&arr[i], &arr[largest]);
-        heapify(arr, n, largest);
+    for (j = low; j <= high - 1; j++) {
+        if (arr[j] < pivot) {
+            i++;
+            swap(&arr[i], &arr[j]);
+        }
     }
+    swap(&arr[i + 1], &arr[high]);
+    return (i + 1);
 }
 
-void heapSort(int arr[], int n) {
-    int i;
-    
-    for (i = n / 2 - 1; i >= 0; i--)
-        heapify(arr, n, i);
-    
-    for (i = n - 1; i > 0; i--) {
-        swap(&arr[0], &arr[i]);
-        heapify(arr, i, 0);
+// Quick Sort with first element as pivot
+void quickSortFirstPivot(int arr[], int low, int high) {
+    if (low < high) {
+        // Move the first element to the end to use the existing partition logic
+        swap(&arr[low], &arr[high]);
+        int pi = partition(arr, low, high);
+        
+        quickSortFirstPivot(arr, low, pi - 1);
+        quickSortFirstPivot(arr, pi + 1, high);
     }
 }
 
@@ -55,7 +54,7 @@ int main() {
         scanf("%d", &arr[i]); // Read elements into the array
     }
     
-    heapSort(arr, n);
+    quickSortFirstPivot(arr, 0, n - 1);
     
     // Optionally print the sorted array, but for benchmarking, we might skip this
     // for (int i = 0; i < n; i++) {

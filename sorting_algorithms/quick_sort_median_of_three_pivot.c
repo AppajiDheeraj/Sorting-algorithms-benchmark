@@ -7,8 +7,21 @@ void swap(int* a, int* b) {
     *b = temp;
 }
 
+// Function to find the median of three elements
+int medianOfThree(int arr[], int low, int high) {
+    int mid = low + (high - low) / 2;
+    
+    // Sort arr[low], arr[mid], arr[high] to find the median
+    if (arr[low] > arr[mid]) swap(&arr[low], &arr[mid]);
+    if (arr[low] > arr[high]) swap(&arr[low], &arr[high]);
+    if (arr[mid] > arr[high]) swap(&arr[mid], &arr[high]);
+    
+    return mid; // arr[mid] is now the median
+}
+
+// Partition function (pivot is the last element)
 int partition(int arr[], int low, int high) {
-    int pivot = arr[high];
+    int pivot = arr[high]; // Pivot is now the element that was moved to high
     int i = (low - 1);
     int j;
     
@@ -22,12 +35,19 @@ int partition(int arr[], int low, int high) {
     return (i + 1);
 }
 
-void quickSort(int arr[], int low, int high) {
+// Quick Sort with median-of-three pivot
+void quickSortMedianOfThreePivot(int arr[], int low, int high) {
     if (low < high) {
+        // Find the median of arr[low], arr[mid], arr[high]
+        int median_index = medianOfThree(arr, low, high);
+        
+        // Swap the median element with the last element to use the existing partition logic
+        swap(&arr[median_index], &arr[high]);
+        
         int pi = partition(arr, low, high);
         
-        quickSort(arr, low, pi - 1);
-        quickSort(arr, pi + 1, high);
+        quickSortMedianOfThreePivot(arr, low, pi - 1);
+        quickSortMedianOfThreePivot(arr, pi + 1, high);
     }
 }
 
@@ -50,7 +70,7 @@ int main() {
         scanf("%d", &arr[i]); // Read elements into the array
     }
     
-    quickSort(arr, 0, n - 1);
+    quickSortMedianOfThreePivot(arr, 0, n - 1);
     
     // Optionally print the sorted array, but for benchmarking, we might skip this
     // for (int i = 0; i < n; i++) {

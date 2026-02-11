@@ -1,0 +1,190 @@
+Algorithm,Input Type,Input Size (N),Average Time (s)
+Bubble Sort,Random,100,0.142076
+Heap Sort,Random,100,0.101513
+Insertion Sort,Random,100,0.106740
+Merge Sort,Random,100,0.111820
+Quick Sort,Random,100,0.098533
+Radix Sort,Random,100,0.113187
+Selection Sort,Random,100,0.102602
+Bubble Sort,Reverse Sorted,100,0.070092
+Heap Sort,Reverse Sorted,100,0.061740
+Insertion Sort,Reverse Sorted,100,0.066552
+Merge Sort,Reverse Sorted,100,0.067318
+Quick Sort,Reverse Sorted,100,0.067599
+Radix Sort,Reverse Sorted,100,0.068952
+Selection Sort,Reverse Sorted,100,0.065243
+Bubble Sort,Sorted,100,0.105842
+Heap Sort,Sorted,100,0.095447
+Insertion Sort,Sorted,100,0.098514
+Merge Sort,Sorted,100,0.097687
+Quick Sort,Sorted,100,0.090761
+Radix Sort,Sorted,100,0.098278
+Selection Sort,Sorted,100,0.090300
+Bubble Sort,Random,500,0.062171
+Heap Sort,Random,500,0.063262
+Insertion Sort,Random,500,0.067912
+Merge Sort,Random,500,0.075197
+Quick Sort,Random,500,0.064584
+Radix Sort,Random,500,0.061998
+Selection Sort,Random,500,0.071535
+Bubble Sort,Reverse Sorted,500,0.066713
+Heap Sort,Reverse Sorted,500,0.073267
+Insertion Sort,Reverse Sorted,500,0.063804
+Merge Sort,Reverse Sorted,500,0.065764
+Quick Sort,Reverse Sorted,500,0.060289
+Radix Sort,Reverse Sorted,500,0.061616
+Selection Sort,Reverse Sorted,500,0.076986
+Bubble Sort,Sorted,500,0.069776
+Heap Sort,Sorted,500,0.077433
+Insertion Sort,Sorted,500,0.059147
+Merge Sort,Sorted,500,0.063129
+Quick Sort,Sorted,500,0.151104
+Radix Sort,Sorted,500,0.063994
+Selection Sort,Sorted,500,0.068135
+Bubble Sort,Random,1000,0.071490
+Heap Sort,Random,1000,0.066488
+Insertion Sort,Random,1000,0.072107
+Merge Sort,Random,1000,0.059248
+Quick Sort,Random,1000,0.064732
+Radix Sort,Random,1000,0.061011
+Selection Sort,Random,1000,0.072396
+Bubble Sort,Reverse Sorted,1000,0.070924
+Heap Sort,Reverse Sorted,1000,0.062205
+Insertion Sort,Reverse Sorted,1000,0.066107
+Merge Sort,Reverse Sorted,1000,0.065027
+Quick Sort,Reverse Sorted,1000,0.071244
+Radix Sort,Reverse Sorted,1000,0.081097
+Selection Sort,Reverse Sorted,1000,0.060362
+Bubble Sort,Sorted,1000,0.095214
+Heap Sort,Sorted,1000,0.094490
+Insertion Sort,Sorted,1000,0.072420
+Merge Sort,Sorted,1000,0.091629
+Quick Sort,Sorted,1000,0.066483
+Radix Sort,Sorted,1000,0.057836
+Selection Sort,Sorted,1000,0.064710
+Bubble Sort,Random,5000,0.087974
+Heap Sort,Random,5000,0.064507
+Insertion Sort,Random,5000,0.067876
+Merge Sort,Random,5000,0.061530
+Quick Sort,Random,5000,0.070389
+Radix Sort,Random,5000,0.063999
+Selection Sort,Random,5000,0.075793
+Bubble Sort,Reverse Sorted,5000,0.087121
+Heap Sort,Reverse Sorted,5000,0.067413
+Insertion Sort,Reverse Sorted,5000,0.118593
+Merge Sort,Reverse Sorted,5000,0.092471
+Quick Sort,Reverse Sorted,5000,0.086623
+Radix Sort,Reverse Sorted,5000,0.067817
+Selection Sort,Reverse Sorted,5000,0.082350
+Bubble Sort,Sorted,5000,0.064281
+Heap Sort,Sorted,5000,0.060942
+Insertion Sort,Sorted,5000,0.065558
+Merge Sort,Sorted,5000,0.071016
+Quick Sort,Sorted,5000,0.095750
+Radix Sort,Sorted,5000,0.065433
+Selection Sort,Sorted,5000,0.069721
+Bubble Sort,Random,10000,0.182352
+Heap Sort,Random,10000,0.067704
+Insertion Sort,Random,10000,0.094535
+Merge Sort,Random,10000,0.072021
+Quick Sort,Random,10000,0.099100
+Radix Sort,Random,10000,0.093664
+Selection Sort,Random,10000,0.116413
+Bubble Sort,Reverse Sorted,10000,0.189473
+Heap Sort,Reverse Sorted,10000,0.065717
+Insertion Sort,Reverse Sorted,10000,0.124511
+Merge Sort,Reverse Sorted,10000,0.078160
+Quick Sort,Reverse Sorted,10000,0.128359
+Radix Sort,Reverse Sorted,10000,0.074382
+Selection Sort,Reverse Sorted,10000,0.116648
+Bubble Sort,Sorted,10000,0.065424
+Heap Sort,Sorted,10000,0.065300
+Insertion Sort,Sorted,10000,0.069614
+Merge Sort,Sorted,10000,0.067594
+Quick Sort,Sorted,10000,0.172618
+Radix Sort,Sorted,10000,0.066894
+Selection Sort,Sorted,10000,0.133960
+Bubble Sort,Random,25000,1.159837
+Heap Sort,Random,25000,0.076275
+Insertion Sort,Random,25000,0.262873
+Merge Sort,Random,25000,0.077891
+Quick Sort,Random,25000,0.065010
+Radix Sort,Random,25000,0.077192
+Selection Sort,Random,25000,0.888241
+Bubble Sort,Reverse Sorted,25000,0.886598
+Heap Sort,Reverse Sorted,25000,0.068521
+Insertion Sort,Reverse Sorted,25000,0.438970
+Merge Sort,Reverse Sorted,25000,0.063574
+Quick Sort,Reverse Sorted,25000,0.501720
+Radix Sort,Reverse Sorted,25000,0.072407
+Selection Sort,Reverse Sorted,25000,0.389717
+Bubble Sort,Sorted,25000,0.095699
+Heap Sort,Sorted,25000,0.069651
+Insertion Sort,Sorted,25000,0.069764
+Merge Sort,Sorted,25000,0.075386
+Quick Sort,Sorted,25000,0.718928
+Radix Sort,Sorted,25000,0.095111
+Selection Sort,Sorted,25000,0.385708
+Bubble Sort,Random,50000,5.587215
+Heap Sort,Random,50000,0.284575
+Insertion Sort,Random,50000,0.977681
+Merge Sort,Random,50000,0.122500
+Quick Sort,Random,50000,0.095940
+Radix Sort,Random,50000,0.545310
+Selection Sort,Random,50000,1.124079
+Bubble Sort,Reverse Sorted,50000,2.991749
+Heap Sort,Reverse Sorted,50000,0.076572
+Insertion Sort,Reverse Sorted,50000,1.664660
+Merge Sort,Reverse Sorted,50000,0.076395
+Quick Sort,Reverse Sorted,50000,Crashed/Timeout
+Radix Sort,Reverse Sorted,50000,0.075246
+Selection Sort,Reverse Sorted,50000,1.213500
+Bubble Sort,Sorted,50000,0.063819
+Heap Sort,Sorted,50000,0.094344
+Insertion Sort,Sorted,50000,0.075315
+Merge Sort,Sorted,50000,0.077155
+Quick Sort,Sorted,50000,Crashed/Timeout
+Radix Sort,Sorted,50000,0.080551
+Selection Sort,Sorted,50000,1.112688
+Bubble Sort,Random,75000,12.522294
+Heap Sort,Random,75000,0.092125
+Insertion Sort,Random,75000,1.737903
+Merge Sort,Random,75000,0.102740
+Quick Sort,Random,75000,0.082714
+Radix Sort,Random,75000,0.083036
+Selection Sort,Random,75000,2.437039
+Bubble Sort,Reverse Sorted,75000,7.632427
+Heap Sort,Reverse Sorted,75000,0.083687
+Insertion Sort,Reverse Sorted,75000,3.468973
+Merge Sort,Reverse Sorted,75000,0.081177
+Quick Sort,Reverse Sorted,75000,Crashed/Timeout
+Radix Sort,Reverse Sorted,75000,0.079662
+Selection Sort,Reverse Sorted,75000,2.626946
+Bubble Sort,Sorted,75000,0.072795
+Heap Sort,Sorted,75000,0.085301
+Insertion Sort,Sorted,75000,0.084791
+Merge Sort,Sorted,75000,0.082977
+Quick Sort,Sorted,75000,Crashed/Timeout
+Radix Sort,Sorted,75000,0.075171
+Selection Sort,Sorted,75000,2.413403
+Bubble Sort,Random,100000,22.881916
+Heap Sort,Random,100000,0.095251
+Insertion Sort,Random,100000,2.991902
+Merge Sort,Random,100000,0.092516
+Quick Sort,Random,100000,0.083034
+Radix Sort,Random,100000,0.080595
+Selection Sort,Random,100000,4.631533
+Bubble Sort,Reverse Sorted,100000,14.373579
+Heap Sort,Reverse Sorted,100000,0.088129
+Insertion Sort,Reverse Sorted,100000,6.664837
+Merge Sort,Reverse Sorted,100000,0.088012
+Quick Sort,Reverse Sorted,100000,Crashed/Timeout
+Radix Sort,Reverse Sorted,100000,0.080156
+Selection Sort,Reverse Sorted,100000,5.080855
+Bubble Sort,Sorted,100000,0.081028
+Heap Sort,Sorted,100000,0.101341
+Insertion Sort,Sorted,100000,0.077465
+Merge Sort,Sorted,100000,0.091685
+Quick Sort,Sorted,100000,Crashed/Timeout
+Radix Sort,Sorted,100000,0.075817
+Selection Sort,Sorted,100000,4.679219
