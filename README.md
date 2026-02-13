@@ -226,4 +226,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 7. Contact Information
 
-For any inquiries, please contact: G00376379@gmit.ie
+For any inquiries, please contact: dheeraj.nagaraja@gmail.com
