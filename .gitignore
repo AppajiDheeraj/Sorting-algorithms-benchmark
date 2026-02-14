@@ -3,6 +3,7 @@
 *.out
 *.exe
 a.out
+output.log
 
 # Compiled executables (without extension)
 sorting_algorithms/bubble_sort
